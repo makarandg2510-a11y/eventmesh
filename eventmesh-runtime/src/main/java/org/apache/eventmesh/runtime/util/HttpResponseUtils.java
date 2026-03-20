@@ -31,6 +31,9 @@ import io.netty.handler.codec.http.HttpResponseStatus;
 import io.netty.handler.codec.http.HttpVersion;
 import io.netty.util.AsciiString;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class HttpResponseUtils {
 
     /**

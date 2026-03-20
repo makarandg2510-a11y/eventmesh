@@ -30,9 +30,11 @@ import java.util.Optional;
 import io.cloudevents.CloudEvent;
 import io.cloudevents.core.builder.CloudEventBuilder;
 
+import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@UtilityClass
 public class CloudEventUtil {
 
     public static CloudEvent convertRecordToEvent(ConnectRecord connectRecord) {

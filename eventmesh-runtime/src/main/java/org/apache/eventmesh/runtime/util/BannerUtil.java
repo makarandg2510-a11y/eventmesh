@@ -21,12 +21,14 @@ import static org.apache.eventmesh.runtime.constants.EventMeshVersion.getCurrent
 
 import org.apache.commons.lang3.StringUtils;
 
+import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 /**
  * EventMesh banner util
  */
 @Slf4j
+@UtilityClass
 public class BannerUtil {
 
     private static final String LOGO =

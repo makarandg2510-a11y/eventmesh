@@ -29,6 +29,9 @@ import io.cloudevents.CloudEvent;
 import io.cloudevents.SpecVersion;
 import io.cloudevents.core.builder.CloudEventBuilder;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class MongodbCloudEventUtil {
 
     public static CloudEvent convertToCloudEvent(Document document) throws Exception {

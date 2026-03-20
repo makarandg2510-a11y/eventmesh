@@ -54,7 +54,7 @@ import lombok.experimental.UtilityClass;
  */
 
 @UtilityClass
-public final class LogUtil {
+public class LogUtil {
 
     private static final String FQCN = LogUtil.class.getName();
 

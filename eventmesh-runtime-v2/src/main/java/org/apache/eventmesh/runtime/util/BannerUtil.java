@@ -17,12 +17,14 @@
 
 package org.apache.eventmesh.runtime.util;
 
+import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 /**
  * EventMesh banner util
  */
 @Slf4j
+@UtilityClass
 public class BannerUtil {
 
     private static final String LOGO =

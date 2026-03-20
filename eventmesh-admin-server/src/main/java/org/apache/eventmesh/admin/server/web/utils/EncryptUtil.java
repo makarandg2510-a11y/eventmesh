@@ -22,9 +22,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class EncryptUtil {
-    public EncryptUtil() {
-    }
 
     private static byte[] hexStringToBytes(String hexString) {
         if (hexString != null && !hexString.equals("")) {

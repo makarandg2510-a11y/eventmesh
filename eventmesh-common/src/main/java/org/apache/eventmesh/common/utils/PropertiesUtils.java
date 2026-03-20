@@ -32,6 +32,9 @@ import java.util.Properties;
 
 import com.google.common.base.Preconditions;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class PropertiesUtils {
 
     public static Properties getPropertiesByPrefix(final Properties from, final String prefix) {

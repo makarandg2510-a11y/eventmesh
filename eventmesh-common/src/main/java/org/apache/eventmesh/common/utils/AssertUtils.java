@@ -21,10 +21,13 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.util.Objects;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * Assert
  */
-public final class AssertUtils {
+@UtilityClass
+public class AssertUtils {
 
     /**
      * Assert obj is not null

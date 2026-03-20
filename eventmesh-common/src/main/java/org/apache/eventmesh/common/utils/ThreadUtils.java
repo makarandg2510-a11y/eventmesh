@@ -20,6 +20,9 @@ package org.apache.eventmesh.common.utils;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class ThreadUtils {
 
     private static volatile long currentPID = -1;

@@ -17,6 +17,9 @@
 
 package org.apache.eventmesh.connector.jdbc.utils;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class ByteArrayUtils {
 
     private static final char[] HEX_CHARS = new char[]{'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};

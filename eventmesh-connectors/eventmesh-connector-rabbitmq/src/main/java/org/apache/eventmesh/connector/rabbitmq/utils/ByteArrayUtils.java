@@ -25,7 +25,10 @@ import java.util.Optional;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
+import lombok.experimental.UtilityClass;
+
 @SuppressWarnings("all")
+@UtilityClass
 public class ByteArrayUtils {
 
     public static <T> Optional<byte[]> objectToBytes(T obj) throws IOException {

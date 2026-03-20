@@ -34,13 +34,12 @@ import com.google.protobuf.Any;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.Timestamp;
 
-public abstract class EventMeshCloudEventUtils {
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
+public class EventMeshCloudEventUtils {
 
     private static final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(Constants.DATE_FORMAT_DEFAULT);
-
-    private EventMeshCloudEventUtils() {
-
-    }
 
     private static String getValue(CloudEvent cloudEvent, String defaultValue, String protocolKey) {
         try {

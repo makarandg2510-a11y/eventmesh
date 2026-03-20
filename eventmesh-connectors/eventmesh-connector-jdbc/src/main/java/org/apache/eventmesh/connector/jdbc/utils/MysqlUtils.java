@@ -19,14 +19,10 @@ package org.apache.eventmesh.connector.jdbc.utils;
 
 import org.apache.eventmesh.connector.jdbc.table.catalog.TableId;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class MysqlUtils {
-
-    /**
-     * Private constructor to prevent instantiation from outside the class.
-     */
-    private MysqlUtils() {
-
-    }
 
     /**
      * Generates a wrapped name based on the TableId object.

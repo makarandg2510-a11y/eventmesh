@@ -23,6 +23,9 @@ import org.apache.commons.lang3.StringUtils;
 
 import com.lark.oapi.service.im.v1.enums.ReceiveIdTypeEnum;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class ConfigUtils {
 
     public static void validateSinkConfiguration(SinkConnectorConfig sinkConnectorConfig) {

@@ -34,6 +34,9 @@ import java.util.Map;
 
 import javax.crypto.Cipher;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class RSAUtils {
     public static final String KEY_ALGORITHM = "RSA";
     public static final String SIGNATURE_ALGORITHM = "MD5withRSA";
@@ -42,8 +45,6 @@ public class RSAUtils {
     private static final int MAX_ENCRYPT_BLOCK = 117;
     private static final int MAX_DECRYPT_BLOCK = 128;
 
-    public RSAUtils() {
-    }
 
     public static Map<String, Object> genKeyPair() throws Exception {
         KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance("RSA");

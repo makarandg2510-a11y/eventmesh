@@ -24,7 +24,10 @@ import java.net.SocketAddress;
 
 import io.netty.channel.Channel;
 
-public abstract class RemotingHelper {
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
+public class RemotingHelper {
 
     public static String exceptionSimpleDesc(final Throwable e) {
         final StringBuilder sb = new StringBuilder();

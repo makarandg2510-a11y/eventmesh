@@ -17,6 +17,9 @@
 
 package org.apache.eventmesh.connector.http.util;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class HttpUtils {
 
     /**

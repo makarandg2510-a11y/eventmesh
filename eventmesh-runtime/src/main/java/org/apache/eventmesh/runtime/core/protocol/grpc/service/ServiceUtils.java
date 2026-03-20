@@ -51,6 +51,9 @@ import com.google.protobuf.Any;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.Timestamp;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class ServiceUtils {
 
     public static boolean validateCloudEventAttributes(CloudEvent cloudEvent) {

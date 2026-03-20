@@ -27,6 +27,9 @@ import com.fasterxml.jackson.databind.util.ByteBufferBackedInputStream;
 import com.google.protobuf.Any;
 import com.google.protobuf.UnsafeByteOperations;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class PayloadUtil {
 
     public static Payload from(IPayload payload) {

@@ -22,6 +22,9 @@ import org.apache.commons.text.RandomStringGenerator;
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class RandomStringUtils {
 
     private static final RandomStringGenerator RANDOM_NUM_GENERATOR = new RandomStringGenerator.Builder().withinRange('0', '9').build();

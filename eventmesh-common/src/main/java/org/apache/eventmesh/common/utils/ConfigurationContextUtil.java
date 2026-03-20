@@ -30,9 +30,12 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import com.google.common.collect.Lists;
 
+import lombok.experimental.UtilityClass;
+
 /**
  * ConfigurationContextUtil.
  */
+@UtilityClass
 public class ConfigurationContextUtil {
 
     private static final ConcurrentHashMap<String, CommonConfiguration> CONFIGURATION_MAP = new ConcurrentHashMap<>();

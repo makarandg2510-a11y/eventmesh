@@ -36,6 +36,9 @@ import com.jayway.jsonpath.internal.path.CompiledPath;
 import com.jayway.jsonpath.internal.path.PathCompiler;
 import com.jayway.jsonpath.spi.json.JacksonJsonProvider;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class JsonPathUtils {
 
     public static final String JSONPATH_SPLIT = "\\.";

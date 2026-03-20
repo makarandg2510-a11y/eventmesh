@@ -25,11 +25,11 @@ import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+import lombok.experimental.UtilityClass;
+
+@UtilityClass
 public class Base64Utils {
     private static final int CACHE_SIZE = 1024;
-
-    public Base64Utils() {
-    }
 
     public static byte[] decode(String base64) throws Exception {
         return Base64.decode(base64.toCharArray());
